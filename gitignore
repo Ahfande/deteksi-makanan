@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables / secrets - JANGAN pernah di-commit
+.env
+.env.local
+*.env
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Old local upload folder (no longer used - images now go to Supabase Storage)
+uploads/
+
+# Logs
+*.log
